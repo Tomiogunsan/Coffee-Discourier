@@ -7,15 +7,7 @@ export default function Document() {
       <link rel='preload'
       href='/fonts/IBMPlexSans-Bold.ttf'
       as='font'
-      crossOrigin='anonymous'></link>
-      <link rel='preload'
-      href='/fonts/IBMPlexSans-Regular.ttf'
-      as='font'
-      crossOrigin='anonymous'></link>
-      <link rel='preload'
-      href='/fonts/IBMPlexSans-SemiBold.ttf'
-      as='font'
-      crossOrigin='anonymous'></link>
+      crossOrigin='ano'
       </Head>
       <body>
         <Main />

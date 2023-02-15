@@ -25,9 +25,7 @@ export default function Home() {
     <Image 
     src="/static/hero-image.png" 
     width={700} 
-    height={400}
-    className="absolute top-[62px] md:top-10 z-1 md:right-[20%]"
-    />
+    height={400}/>
 
        
 

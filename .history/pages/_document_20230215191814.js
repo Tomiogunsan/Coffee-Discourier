@@ -13,7 +13,7 @@ export default function Document() {
       as='font'
       crossOrigin='anonymous'></link>
       <link rel='preload'
-      href='/fonts/IBMPlexSans-SemiBold.ttf'
+      href='/fonts/IBMPlexSans-BSeold.ttf'
       as='font'
       crossOrigin='anonymous'></link>
       </Head>

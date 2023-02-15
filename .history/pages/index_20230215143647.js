@@ -24,10 +24,7 @@ export default function Home() {
     handleOnClick={handleOnBannerBtn}/>
     <Image 
     src="/static/hero-image.png" 
-    width={700} 
-    height={400}
-    className="absolute top-[62px] md:top-10 z-1 md:right-[20%]"
-    />
+    width={700} height={400}/>
 
        
 

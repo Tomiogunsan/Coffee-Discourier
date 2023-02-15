@@ -22,12 +22,7 @@ export default function Home() {
        
     <Banner  buttonText='View stores nearby' 
     handleOnClick={handleOnBannerBtn}/>
-    <Image 
-    src="/static/hero-image.png" 
-    width={700} 
-    height={400}
-    className="absolute top-[62px] md:top-10 z-1 md:right-[20%]"
-    />
+    
 
        
 
