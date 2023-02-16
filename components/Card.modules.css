@@ -1,0 +1,25 @@
+.container{
+    /* From https://css.glass */
+background: rgba(144, 83, 160, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.4px);
+-webkit-backdrop-filter: blur(3.4px);
+border: 1px solid rgba(144, 83, 160, 0.3);
+
+/* From https://css.glass */
+background: rgba(144, 83, 160, 0.46);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.8px);
+-webkit-backdrop-filter: blur(3.8px);
+border: 1px solid rgba(144, 83, 160, 0.3);
+
+/* From https://css.glass */
+background: rgba(152, 45, 181, 0.39);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.8px);
+-webkit-backdrop-filter: blur(3.8px);
+border: 1px solid rgba(152, 45, 181, 0.3);
+}

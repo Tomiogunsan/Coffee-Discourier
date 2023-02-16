@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
 import Banner from '../components/banner'
+import Card from '../components/Card'
+import coffeeStores from "../data/coffee-stores.json"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,8 +28,22 @@ export default function Home() {
     src="/static/hero-image.png" 
     width={700} 
     height={400}
+    alt='/'
     className="absolute top-[62px] md:top-10 z-1 md:right-[20%]"
     />
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 mt-16 text-[#4B0082]'>
+      {coffeeStores.map((coffeeStore) => (
+          <Card key={coffeeStore.id}
+          name={coffeeStore.name}
+          imgUrl={coffeeStore.imgUrl}
+          href={`/coffee-store/${coffeeStore.id}`}
+          />
+      ))}
+      
+     
+    
+    </div>
+    
 
        
 
