@@ -6,7 +6,7 @@ import Container from './Container'
 export default function Card(props) {
   return (
     <>
-    <Container>
+   <Container>
     <div className=' bg-purple-rgba backdrop-blur-sm p-6 hover:bg-lilac-rgba
     rounded-xl border border-lilac-rgba shadow-md shadow-black-rgba'>
         <Link href={props.href}>
@@ -24,8 +24,8 @@ export default function Card(props) {
         </Link>
         
     </div>
+   
     </Container>
-    
     </>
     
   )
