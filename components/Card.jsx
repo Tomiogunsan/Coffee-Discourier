@@ -9,9 +9,14 @@ export default function Card(props) {
    <Container>
     <div className=' bg-purple-rgba backdrop-blur-sm p-6 hover:bg-lilac-rgba
     rounded-xl border border-lilac-rgba shadow-md shadow-black-rgba'>
-        <Link href={props.href}>
-        <h2 className='font-semibold text-lg pb-4'>{props.name}</h2>
+      
+      <Link href={props.href}>
+     <div>
+     <div>
+        <h2 className='font-semibold text-lg pb-4 w-[250px]'>{props.name}</h2>
+        </div>
         
+        <div>
         <Image 
         src={props.imgUrl}
         width={260}
@@ -19,9 +24,15 @@ export default function Card(props) {
         alt='/'
         className='rounded-md'
         />
-       
+        </div>
+     </div>
         
+        
+       
+      
         </Link>
+     
+       
         
     </div>
    

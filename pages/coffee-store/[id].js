@@ -47,9 +47,12 @@ function handleUpvoteButton(){
       </Head>
       <div className='grid md:grid-cols-2 pt-[28px] pb-[28px] pl-[12px] pr-[12px]'>
       <div className='place-self-center'>
-      <Link href='/' className='mt-[96px] text-[18px] mb-[8px] font-bold'>
+        <div>
+        <Link href='/' className='mt-[96px] text-[18px] mb-[8px] font-bold'>
         Back to home
       </Link>
+        </div>
+      
       <h1 className='mb-[16px] mt-[16px] text-[36px] text-[#fff] overflow-hidden text-ellipsis whitespace-normal'>{name}</h1>
       <Image 
       src={imgUrl} 
