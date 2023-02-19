@@ -6,22 +6,13 @@ import Banner from '../components/banner'
 import Card from '../components/Card'
 import coffeeStoresData from "../data/coffee-stores.json"
 import Container from '../components/Container'
+import { fetchCoffeeStores } from '../library/coffee-stores'
 
 
 
 export async function getStaticProps(context){
   
-  const options = {
-    method: 'GET',
-    headers: {
-      accept: 'application/json',
-      Authorization: process.env.FOURSQUARE_KEY,
-    }
-  };
-  
-  const response = await fetch('https://api.foursquare.com/v3/places/search?query=coffee%20stores&ll=9.044417%2C7.409720&limit=12', options)
-    const data = await response.json()
-  console.log(data.result);
+  const coffeeStores = await fetchCoffeeStores();
     
     // .catch(err => console.error(err));
   return{
